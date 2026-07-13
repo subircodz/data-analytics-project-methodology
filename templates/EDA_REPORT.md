@@ -49,7 +49,7 @@ Document the exploratory analyses completed during this phase.
 
 ---
 
-# Visualizations
+# Supporting Visualizations
 
 List all visualizations created during EDA.
 
@@ -104,6 +104,16 @@ Examples:
 # EDA Summary
 
 Provide a concise summary of the exploratory analysis completed.
+
+---
+
+# Questions Raised
+
+The following questions emerged during EDA and require business interpretation.
+
+- Why are returns significantly higher in Region A?
+- Why did sales decline after March?
+- Why does Supplier X have the highest defect rate?
 
 ---
 
