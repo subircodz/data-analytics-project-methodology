@@ -1,0 +1,1 @@
+> DAPM is an open and evolving methodology. Feedback, discussion, and improvements are welcome through issues and pull requests.
