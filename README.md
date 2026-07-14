@@ -1,6 +1,6 @@
 # DAPM Framework
-**Data Analytics Project Methodology**
-> **Business First. Evidence Always.**
+## Data Analytics Project Methodology
+*Business First. Evidence Always.*
 
 <p align="center">
   <img src="assets/images/banner.png" alt="Project Banner" width="100%">
