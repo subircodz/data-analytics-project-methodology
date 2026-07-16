@@ -13,10 +13,10 @@ Warehouse Operations & Inventory Analytics
 Observed during Phase 1.
 
 **Action:**
-Re-evaluate after Project 5.
+Implemented.
 
 **Status:**
-Pending validation.
+Validated ✅
 
 ---
 
@@ -26,16 +26,16 @@ Pending validation.
 Warehouse Operations & Inventory Analytics
 
 **Proposed Improvement:**
-Introduce a lightweight `DAPM_PHASE_CHECKLIST.md` to define completion criteria for each phase.
+Introduce a lightweight `PHASE_CHECKLIST.md` to define completion criteria for each phase.
 
 **Evidence:**
 Observed during transition from Phase 1 to Phase 2.
 
 **Action:**
-Re-evaluate after Project 5.
+Implemented.
 
 **Status:**
-Pending validation.
+Validated ✅
 
 ---
 
@@ -98,7 +98,7 @@ Observed during project completion
 Re-evaluate after Project 5.
 
 **Status:**
-Pending validation.
+🟡 Pending validation.
 
 ---
 
@@ -117,7 +117,7 @@ During the transition from Business Understanding to Stakeholder Analysis, infor
 Observe the transition between every DAPM phase across at least five validation projects. Introduce the artifact only if the same gap consistently appears.
 
 **Status:**
-Pending validation.
+🟡 Pending validation.
 
 ---
 
@@ -136,4 +136,23 @@ During the Stakeholder Analysis phase, the client naturally revealed several bus
 Observe future validation projects to determine whether information consistently overlaps across DAPM phases. If this behavior is common, introduce an "Information Discovery Principle" (or equivalent guidance) in DAPM v0.2 to clarify that the methodology organizes and validates information rather than restricting when it may be discovered.
 
 **Status:**
-Pending validation.
+🟡 Pending validation.
+
+---
+
+## Observation 005
+
+**Project:**
+Warehouse Operations & Inventory Analytics
+
+**Proposed Improvement:**
+Re-evaluate the role of `PROJECT_CASE_JOURNAL.md` for medium and large-scale analytics projects. Consider whether detailed consultant–client discussions should reside within their respective phase documents, allowing the Project Case Journal to be simplified or retired if it no longer provides unique value.
+
+**Evidence:**
+During the validation project, a single `PROJECT_CASE_JOURNAL.md` was sufficient because the project was intentionally scoped as a prototype with concise discussions. However, it became evident that in real-world engagements spanning multiple months, the journal could grow into a very large document, making it difficult to navigate and maintain. At the same time, creating detailed phase documents while retaining a comprehensive journal may introduce unnecessary duplication, particularly since the project README already serves as the primary navigation entry point.
+
+**Action:**
+Continue using the current Project Case Journal during additional validation projects. Observe whether it consistently provides value beyond the dedicated phase documentation. If future evidence shows that phase documents adequately capture consultant discussions and project history, consider simplifying or retiring the Project Case Journal in a future DAPM release.
+
+**Status:**
+🟡 Pending validation.
