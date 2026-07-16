@@ -95,3 +95,20 @@ Re-evaluate after Project 5.
 
 **Status:**
 Pending validation.
+
+## Observation 004
+
+**Project:**
+Warehouse Operations & Inventory Analytics
+
+**Proposed Improvement:**
+Introduce a lightweight `PHASE_DELIVERABLES.md` (or an equivalent knowledge handover artifact) to formally capture the validated outputs of each DAPM phase. These outputs would become the primary input for the subsequent phase, establishing an explicit knowledge pipeline throughout the methodology.
+
+**Evidence:**
+During the transition from Business Understanding to Stakeholder Analysis, information had to be interpreted from multiple project documents (Project Brief, Project Case Journal, Observations, and Analytical Thinking). There was no single authoritative artifact representing the official outputs of the completed phase.
+
+**Action:**
+Observe the transition between every DAPM phase across at least five validation projects. Introduce the artifact only if the same gap consistently appears.
+
+**Status:**
+Pending validation.
