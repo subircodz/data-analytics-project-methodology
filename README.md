@@ -8,7 +8,7 @@
 
 | Property | Value |
 |----------|-------|
-| **Current Version** | v0.1.0 |
+| **Current Version** | v0.1.1 |
 | **Release Status** | Experimental |
 | **Evidence Level** | Under Validation |
 | **License** | MIT |
@@ -274,29 +274,46 @@ Instead, it aims to help you become a better analyst—one who solves business p
 
 ```text
 DAPM
-│
-├── docs/
-│   ├── philosophy.md
-│   ├── principles.md
-│   ├── methodology.md
-│   ├── glossary.md
-│   ├── roadmap.md
-│   └── versioning.md
-│
-├── templates/
-│   ├── PROJECT_CASE_JOURNAL.md
-│   ├── VALIDATION_REPORT.md
-│   ├── EDA_REPORT.md
-│   ├── BUSINESS_INSIGHTS.md
-│   ├── RECOMMENDATIONS.md
-│   └── EXECUTIVE_SUMMARY.md
-│
-├── checklists/
-│   └── PROJECT_CHECKLIST.md
-│
-├── assets/
-│
-└── examples/
+.
+├── assets
+│   ├── diagrams
+│   └── images
+│       └── banner.png
+├── CHANGELOG.md
+├── checklists
+│   └── PROJECT_CHECKLIST.md
+├── CODE_OF_CONDUCT.md
+├── COMPARISON_WITH_EXISTING_METHODOLOGIES.md
+├── CONTRIBUTING.md
+├── DAPM_IMPROVEMENTS.md
+├── docs
+│   ├── glosarry.md
+│   ├── methodology.md
+│   ├── philosophy.md
+│   ├── principles.md
+│   ├── roadmap.md
+│   ├── terminology.md
+│   └── versioning.md
+├── examples
+├── images
+├── improvements
+│   ├── ANALYTICAL_THINKING.md
+│   ├── OBSERVATIONS.md
+│   └── PROJECT_BRIEF.md
+├── LICENSE
+├── README.md
+├── SECURITY.md
+├── templates
+│   ├── BUSINESS_INSIGHTS.md
+│   ├── EDA_REPORT.md
+│   ├── EXECUTIVE_SUMMARY.md
+│   ├── PROJECT_CASE_JOURNAL.md
+│   ├── README.md
+│   ├── README_TEMPLATE.md
+│   ├── RECOMMENDATIONS.md
+│   └── VALIDATION_REPORT.md
+└── VERSION.md
+
 ```
 
 Each directory has a specific purpose and supports a different stage of the methodology.
@@ -323,28 +340,41 @@ The documentation explains the ideas behind DAPM.
 
 | Document       | Purpose                                   |
 | -------------- | ----------------------------------------- |
-| philosophy.md  | The mindset behind the methodology        |
-| principles.md  | Core principles that guide every project  |
-| methodology.md | Complete project lifecycle                |
-| glossary.md    | Standard terminology used throughout DAPM |
-| roadmap.md     | Planned improvements for future versions  |
-| versioning.md  | Versioning policy for the methodology     |
+| [PHILOSOPHY](docs/philosophy.md)  | The mindset behind the methodology        |
+| [PRINCIPLES](docs/principles.md)  | Core principles that guide every project  |
+| [METHODOLOGY](docs/methodology.md) | Complete project lifecycle                |
+| [GLOSSARY](docs/glossary.md)    | Standard terminology used throughout DAPM |
+| [ROADMAP](docs/roadmap.md)     | Planned improvements for future versions  |
+| [VERSIONING](docs/versioning.md)  | Versioning policy for the methodology     |
 
 ---
 
-## Templates
+## Template Library *(Under Validation)*
 
-DAPM provides reusable templates that standardize project documentation.
+The DAPM Framework includes a standardized documentation library designed to support every phase of an analytics project.
 
-| Template             | Purpose                                            |
-| -------------------- | -------------------------------------------------- |
-| Project Case Journal | Records the project's complete journey             |
-| Validation Report    | Documents data quality assessment                  |
-| EDA Report           | Records exploratory data analysis and observations |
-| Business Insights    | Connects observations to business meaning          |
-| Recommendations      | Defines evidence-based business actions            |
-| Executive Summary    | Presents a concise overview for decision-makers    |
+These templates are currently in **Draft** status and are being validated through real-world case studies. They will continue to evolve as evidence is collected from practical project implementations.
 
+The objective is to provide a consistent, reusable documentation standard for all DAPM projects.
+
+| Template | Purpose |
+|----------|---------|
+| **Project Brief** | Captures the client's business context, objectives, scope, and constraints. |
+| **Project Case Journal** | Records the chronological progress of the project, including meetings, decisions, assumptions, and milestones. |
+| **Analytical Thinking** | Documents the consultant's preliminary analytical reasoning before technical implementation begins. |
+| **Observations** | Maintains an evidence-based register of objective findings collected throughout the project lifecycle. |
+| **Phase Checklist** | Tracks the completion criteria and progress of each DAPM phase. |
+| **Business Requirements** | Defines the client's business objectives, analytical requirements, and expected deliverables. |
+| **Data Discovery** | Documents available data sources, ownership, accessibility, and initial data understanding. |
+| **Validation Report** | Assesses data quality, completeness, consistency, and validation findings before analysis. |
+| **EDA Report** | Documents exploratory data analysis, statistical summaries, patterns, and anomalies. |
+| **Business Insights** | Converts validated observations into meaningful business understanding and interpretations. |
+| **Recommendations** | Provides evidence-based business actions supported by analytical findings. |
+| **Executive Summary** | Presents a concise overview of the project, key findings, and recommendations for decision-makers. |
+
+> **Current Status:** Draft Template Library (Under Validation)
+>
+> These templates are being refined through the **Warehouse Operations & Inventory Analytics** and **SwiftMove Logistics Analytics** validation projects. Future DAPM releases will incorporate improvements based on practical usage and community feedback.
 ---
 
 ## Checklists
