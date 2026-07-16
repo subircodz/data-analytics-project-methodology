@@ -18,6 +18,8 @@ Re-evaluate after Project 5.
 **Status:**
 Pending validation.
 
+---
+
 ## Observation 002
 
 **Project:**
@@ -34,6 +36,8 @@ Re-evaluate after Project 5.
 
 **Status:**
 Pending validation.
+
+---
 
 ## Observation 003
 
@@ -96,6 +100,8 @@ Re-evaluate after Project 5.
 **Status:**
 Pending validation.
 
+---
+
 ## Observation 004
 
 **Project:**
@@ -109,6 +115,25 @@ During the transition from Business Understanding to Stakeholder Analysis, infor
 
 **Action:**
 Observe the transition between every DAPM phase across at least five validation projects. Introduce the artifact only if the same gap consistently appears.
+
+**Status:**
+Pending validation.
+
+---
+
+## Observation 005
+
+**Project:**
+Distribution Center & Logistics Analytics
+
+**Proposed Improvement:**
+Add a guiding principle to DAPM clarifying that the phases represent analytical activities rather than isolated meetings. Information relevant to later phases may naturally emerge during earlier client discussions and should be captured immediately, then validated during the appropriate DAPM phase.
+
+**Evidence:**
+During the Stakeholder Analysis phase, the client naturally revealed several business requirements and potential KPIs while discussing stakeholder information needs. The current methodology does not explicitly explain whether such information should be deferred until the corresponding phase or documented immediately. This created uncertainty during the validation project, despite the information being valuable and relevant.
+
+**Action:**
+Observe future validation projects to determine whether information consistently overlaps across DAPM phases. If this behavior is common, introduce an "Information Discovery Principle" (or equivalent guidance) in DAPM v0.2 to clarify that the methodology organizes and validates information rather than restricting when it may be discovered.
 
 **Status:**
 Pending validation.
