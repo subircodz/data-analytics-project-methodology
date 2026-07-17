@@ -11,7 +11,7 @@
 | **Current Version** | v0.1.1 |
 | **Release Status** | Experimental |
 | **Evidence Level** | Under Validation |
-| **License** | MIT |
+| **License** | CC BY-NC-SA 4.0 |
 | **Framework Type** | Business-First Data Analytics Methodology |
 | **Owned By** | Subir Sutradhar |
 | **Maintained By** | Subir Sutradhar |
@@ -472,11 +472,25 @@ That is the philosophy behind DAPM.
 
 **Business First. Evidence Always.**
 
-## License
+---
 
-DAPM is released under the MIT License.
+<h1 align="center">License & Copyright</h1>
+<p align="center">
+<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/"><img src="https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg"></a>
+</p>
 
-See the [LICENSE](LICENSE) file for details.
+**Data Analytic Project Methodology Framework (DAPM Framework)** © 2026 by Subir Sutradhar is licensed under [Attribution-NonCommercial-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+
+### Under this license, others are free to:
+* **Share** — Copy and redistribute the material in any medium or format.
+* **Adapt** — Remix, transform, and build upon the material.
+
+### Under the following terms:
+* **Attribution** — You must give appropriate credit, provide a link to the license, and indicate if changes were made.
+* **NonCommercial** — You may **not** use the material for commercial purposes.
+* **ShareAlike** — If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.
+
+---
 
 
 

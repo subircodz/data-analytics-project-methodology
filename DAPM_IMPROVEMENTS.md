@@ -156,3 +156,171 @@ Continue using the current Project Case Journal during additional validation pro
 
 **Status:**
 🟡 Pending validation.
+
+---
+
+## Observation 006
+
+**Project:**
+Warehouse Operations & Inventory Analytics
+
+**Proposed Improvement:**
+Evaluate introducing a lightweight **Business-to-Data Mapping** activity immediately after **Data Discovery**. This activity would map each business requirement to the required data sources, tables, and columns before any SQL queries, data cleaning, or Python implementation begins.
+
+**Purpose**
+
+Before implementation, identify:
+
+- Which business requirement is being addressed?
+- Which data source contains the required information?
+- Which tables are required?
+- Which columns are required?
+- Which data is not required for the current business objective?
+
+**Benefits**
+
+```
+Business Requirement
+        │
+        ▼
+Identify Required Data
+        │
+        ▼
+Select Tables
+        │
+        ▼
+Select Columns
+        │
+        ▼
+SQL Extraction
+        │
+        ▼
+Data Cleaning
+        │
+        ▼
+EDA & Analysis
+```
+
+This approach may provide:
+
+- Better alignment between business requirements and implementation.
+- Reduced data loading.
+- Reduced cleaning effort.
+- Simpler SQL queries.
+- More maintainable Python code.
+- Improved traceability from business question to analytical result.
+
+**Evidence:**
+Observed during the transition from Business Requirements to Data Discovery.
+
+**Action:**
+Validate across at least five DAPM projects before considering inclusion in DAPM v0.2.0.
+
+**Status:**
+🟡 Pending validation.
+
+---
+
+## Observation 007
+
+**Project:**
+Warehouse Operations & Inventory Analytics
+
+**Proposed Improvement:**
+Introduce **Project Templates** in DAPM to support different types of analytics projects. The core DAPM methodology remains the same, while supporting documentation varies based on the project category.
+
+**Purpose**
+
+Provide predefined template sets for different project types, such as:
+
+- Consultant Projects
+- Portfolio Projects
+- Internal Business Projects
+- Competition Projects
+
+Each project type uses only the documents relevant to its workflow while following the same DAPM phases.
+
+**Benefit**
+
+```
+DAPM Methodology
+        │
+        ▼
+Choose Project Template
+        │
+        ├── Consultant
+        ├── Portfolio
+        ├── Internal
+        └── Competition
+                │
+                ▼
+Use Appropriate Documentation
+```
+
+This approach may provide:
+
+- A flexible methodology for different project types.
+- Elimination of unnecessary documentation.
+- More realistic project workflows.
+- Better adoption of DAPM across consulting, portfolio, and competition projects.
+- Consistent methodology with customizable documentation.
+
+**Evidence:**
+Observed during the Warehouse Operations & Inventory Analytics project while evaluating the suitability of `PROJECT_CASE_JOURNAL.md` for different project categories.
+
+**Action:**
+Validate across at least five DAPM projects before considering inclusion in DAPM v0.2.0.
+
+**Status:**
+🟡 Pending validation.
+
+---
+
+## Observation 008
+
+**Project:**
+Warehouse Operations & Inventory Analytics
+
+**Proposed Improvement:**
+Standardize the repository structure by separating **client-provided source data** from **analyst-created artifacts**. Source datasets should be stored independently and remain technology-agnostic.
+
+**Purpose**
+
+Maintain a clear distinction between:
+
+- Client-provided datasets (SQL dumps, CSV exports, Excel reports).
+- Analyst-created SQL scripts, Python code, spreadsheets, and dashboards.
+
+**Recommended Structure**
+
+```text
+data/
+├── raw/
+│   ├── database/
+│   ├── csv/
+│   └── excel/
+│
+└── processed/
+
+sql/
+spreadsheet/
+python/
+powerbi/
+```
+
+**Benefits**
+
+- Clearly separates source data from analytical work.
+- Enables multiple tools to use the same dataset.
+- Prevents duplication of datasets across technology folders.
+- Improves repository organization and maintainability.
+- Better reflects how enterprise analytics projects are structured.
+
+**Evidence:**
+Observed during the Data Discovery phase while designing the project repository structure.
+
+**Action:**
+Validate across at least five DAPM projects before considering inclusion in DAPM v0.2.0.
+
+**Status:**
+🟡 Pending validation.
